@@ -1,17 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro de Nuevo Cliente</title>
-    <style>
-        body { font-family: sans-serif; line-height: 1.6; padding: 20px; }
-        form { max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
-        label, input, select, textarea, button { display: block; margin-bottom: 10px; width: 100%; }
-        input[type="submit"] { background-color: #333; color: white; border: none; padding: 10px; cursor: pointer; }
-    </style>
+    <title>Museo de Arte Digital</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Nuevo Cliente</h1>
+    <header>
+        <h1>Museo de Arte Digital</h1>
+    </header>
+
+    <section id="galeria">
+        <div class="exhibicion" id="arte-moderno">
+            <img src="https://via.placeholder.com/300x200" alt="Exhibición de Arte Moderno">
+            <h2>Arte Moderno</h2>
+            <p>Una colección de obras abstractas y expresionistas.</p>
+            <a href="#" class="boton-info">Ver detalles</a>
+        </div>
+
+        <div class="exhibicion" id="arte-antiguo">
+            <img src="https://via.placeholder.com/300x200" alt="Exhibición de Arte Antiguo">
+            <h2>Arte Antiguo</h2>
+            <p>Obras clásicas de los grandes maestros de la historia.</p>
+            <a href="#" class="boton-info">Ver detalles</a>
+        </div>
+
+        <div class="exhibicion" id="arte-contemporaneo">
+            <img src="https://via.placeholder.com/300x200" alt="Exhibición de Arte Contemporáneo">
+            <h2>Arte Contemporáneo</h2>
+            <p>Obras que reflejan los movimientos artísticos del presente.</p>
+            <a href="#" class="boton-info">Ver detalles</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2023 Museo. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
